@@ -48,14 +48,15 @@ export const ContactDetails = styled.div`
 `
 
 export const Title1 = styled.h1`
-    font-size: 1em;
+    font-size: 1.3em;
     margin-bottom: 20px;
     font-weight: bold;
     font-style: oblique;
+    text-shadow: 2px 2px 13px ${color2};
 `
 
 export const Title2 = styled.h1`
-    font-size: 0.8em;
+    font-size: 1em;
     margin-bottom: 10px;
 `
 

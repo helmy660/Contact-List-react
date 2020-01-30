@@ -35,7 +35,7 @@ class DetailsModal extends Component {
                                 </Title2>
                             </ContactDetails>
                         </CardInfo>
-                        <Button variant="dark" onClick={() => this.props.handleDetailsModal()}>Ok</Button>
+                        <Button variant="dark" size="sm" onClick={() => this.props.handleDetailsModal()}>Ok</Button>
                     </Card>
                 </Modal>
             </React.Fragment>

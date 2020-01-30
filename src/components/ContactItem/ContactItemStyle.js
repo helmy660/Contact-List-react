@@ -86,8 +86,9 @@ export const ContactImage = styled.img`
 
 export const Details = styled.div`
     margin-left: 10px;
-    text-overflow: ellipsis;
     white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;   
 `
 
 export const ContactName = styled.div`
